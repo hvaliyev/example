@@ -1,0 +1,45 @@
+body {
+    background: linear-gradient(#FDEEDC, #FFD8A9, #F1A661);  
+    font-weight: 700;
+    margin: 3% auto;
+    width: 97%;
+ }
+ img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+ }
+    
+ .intro{
+         font-family: 'Times New Roman', Times, serif;
+         font-weight:  900px;
+         font-style: italic;
+    }  
+
+a{      
+     text-shadow: 0.5px 0.5px #FDEEDC;
+}
+
+a:hover{
+    font-size: 110%;
+    color:#FDEEDC;
+    background-color: #000000;
+}
+
+img:hover{
+    width: 210px;
+    height: 210px;
+}
+
+hr{
+	border-top: 1px dashed black;
+    text-shadow: black;
+}
+
+
+th, td {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+}
