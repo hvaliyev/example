@@ -4,6 +4,7 @@ body {
     margin: 3% auto;
     width: 97%;
  }
+ 
  img{
     border-radius: 50%;
     width: 200px;
@@ -42,4 +43,54 @@ th, td {
         padding-bottom: 10px;
         padding-left: 10px;
         padding-right: 10px;
+}
+
+h2.Top1{
+    position: absolute;
+    top: 3%;
+    right: 30%;
+    font-size: 18px;
+}
+
+h2.Top2{
+    position: absolute;
+    top: 3%;
+    right: 20%;
+    font-size: 18px;
+}
+
+h2.Top3{
+    position: absolute;
+    top: 3%;
+    right: 10%;
+    font-size: 18px;
+}
+
+  a:visited {
+    color: rgb(25, 27, 80);
+    background-color: transparent;
+    text-decoration: none;
+}
+  a:hover {
+    color: rgb(100, 0, 0);
+    background-color: transparent;
+    text-decoration: underline;
+}
+  a:active {
+    color: rgb(27, 30, 100);
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+h2.Top1:hover{
+    font-size: 110%;
+    text-decoration: underline;
+}
+h2.Top2:hover{
+    font-size: 110%;
+    text-decoration: underline;
+}
+h2.Top3:hover{
+    font-size: 110%;
+    text-decoration: underline;
 }
