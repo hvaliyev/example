@@ -1,13 +1,17 @@
 body {
     background: linear-gradient(#FDEEDC, #FFD8A9, #F1A661);  
     font-weight: 700;
-    margin: 3% auto;
+    margin: 2% auto ;
     width: 97%;
+    color: white;
  }
  body, .grad{
-    height: 700px;
+    height: 770px;
         background-color: rgb(241, 166, 97);/* For browsers that do not support gradients */
-        background-image: linear-gradient(to bottom, rgb(253, 238, 220), rgb(255, 216, 168), rgb(241, 166, 97));
+        background-image: url(image/last_of_us2.jpg);
+        background-repeat: no-repeat;
+        background-attachment:fixed;
+        background-size: 100% 100%;
  }
  
  img{
@@ -22,9 +26,7 @@ body {
          font-style: italic;
     }  
 
-a{      
-     text-shadow: 0.5px 0.5px #FDEEDC;
-}
+
 
 a:hover{
     font-size: 110%;
@@ -53,60 +55,50 @@ th, td {
 h2.Top1{
     position: sticky;
     top: 3%;
-    right: 30%;
     font-size: 18px;
 }
 
 h2.Top2{
     position: sticky;
     top: 3%;
-    right: 20%;
     font-size: 18px;
 }
 
 h2.Top3{
     position: sticky;
     top: 3%;
-    right: 10%;
     font-size: 18px;
 }
 
+a{
+    text-decoration: none;
+    color: white;
+}
+
   a:visited {
-    color: rgb(25, 27, 80);
+    color: rgb(0, 120, 0);
     background-color: transparent;
     text-decoration: none;
 }
   a:hover {
-    color: rgb(100, 0, 0);
+    color: rgb(0, 120, 0);
     background-color: transparent;
     text-decoration: underline;
+    font-size: 250%;
 }
   a:active {
-    color: rgb(27, 30, 100);
+    color: white;
     background-color: transparent;
     text-decoration: underline;
-}
-
-
-h2.Top1:hover{
-    font-size: 110%;
-    text-decoration: underline;
-}
-h2.Top2:hover{
-    font-size: 110%;
-    text-decoration: underline;
-}
-h2.Top3:hover{
-    font-size: 110%;
-    text-decoration: underline;
+ 
 }
 
 .active1{
     font-size: 30px;
     text-decoration: underline;  
+    text-shadow: 1px 1px black;
   }
   div{
-   
     padding-right: 50px;
     text-align: right;
     position: sticky;
@@ -116,4 +108,10 @@ h2.Top3:hover{
   }
   .div1edu{
     text-align: right;
+  }
+
+  div a{
+    margin: 20px 10px;
+    font-size: 18px;
+
   }
