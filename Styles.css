@@ -1,24 +1,25 @@
 body {
-    background: linear-gradient(#FDEEDC, #FFD8A9, #F1A661);  
     font-weight: 700;
     margin: 2% auto ;
+    margin-bottom: 15px;
     width: 97%;
     color: white;
+    margin-bottom: 5%;
  }
  body, .grad{
     height: 770px;
-        background-color: rgb(241, 166, 97);/* For browsers that do not support gradients */
         background-image: url(image/last_of_us2.jpg);
         background-repeat: no-repeat;
         background-attachment:fixed;
         background-size: 100% 100%;
+        margin-bottom: 5%;
  }
  
  img{
     border-radius: 50%;
     width: 200px;
     height: 200px;
-    text-align: center;
+    
  }
  .gallery{
   border-radius: 0%;
@@ -29,9 +30,6 @@ body {
          font-weight:  900px;
          font-style: italic;
     }  
-
-
-
 a:hover{
     font-size: 110%;
     color:#FDEEDC;
