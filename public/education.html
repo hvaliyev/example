@@ -1,40 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
-    <style>
-        body{
-            background: linear-gradient(#FDEEDC, #FFD8A9, #F1A661);
-            font-weight: 700;
-            margin: 5% auto;
-            width: 97%;
-        }
-
-    </style>
-
-    
-
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="Styles.css">
+    <style>
+        table{
+            width: 100%;
+            border-collapse:collapse ;
+        }
+        .div1edu, h2{
+            text-align: left;
+        }
+
+    </style>
 </head>
+
 <body>
-    <h2> Education </h2>
-<table border="1" cellspacing="10" bgColor = "red">
-    <tr>
-    <td>2019-2024</td>
-    <td>High School</td>
-    </tr>
-
-    <tr>
-        <td>2008-2019</td>
-        <td>Undergrad</td>
-    </tr>
-
-</table>
+    <div id="grand">
+    <div>
+        <a href="index.html">Home</a>
+        <a href="education.html" class="active1">Education</a>
+        <a href="contact_me.html">Contact Me</a>
+    </div>
     
+    <div class="div1edu">
+    <h2>Education</h2>
+    </div>
+    <table border="1" cellspacing="10"  >
+        <tr>
+            <th>Type of Education</th>  
 
+            <th>Place of Education</th>
+            
+            <th>Year of Education</th>
+        </tr>
+
+        <tr>  
+            <td>Primary and secondary school </td>
+            <td>British School in Baku (BSB)</td>
+            <td>2007-2019</td>
+        </tr>
+        <tr> 
+            <td>Undergraduate</td>
+            <td>ADA University</td>
+            <td>2019-2024</td>
+        </tr>
+    </table>
+   
+    
+    </div>
 </body>
 </html>
