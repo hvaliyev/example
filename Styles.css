@@ -5,6 +5,7 @@ body {
     width: 97%;
     color: white;
     margin-bottom: 5%;
+
  }
  body, .grad{
     height: 770px;
@@ -12,15 +13,16 @@ body {
         background-repeat: no-repeat;
         background-attachment:fixed;
         background-size: 100% 100%;
+
         margin-bottom: 5%;
  }
  
  img{
     border-radius: 50%;
     width: 200px;
-    height: 200px;
-    
+    height: 200px;  
  }
+
  .gallery{
   border-radius: 0%;
  }
@@ -28,7 +30,7 @@ body {
  .intro{
          font-family: 'Times New Roman', Times, serif;
          font-weight:  900px;
-         font-style: italic;
+         font-size: 17.5px;
     }  
 a:hover{
     font-size: 110%;
@@ -52,6 +54,7 @@ th, td {
         padding-bottom: 10px;
         padding-left: 10px;
         padding-right: 10px;
+        font-size: 17px;
 }
 
 h2.Top1{
@@ -83,16 +86,14 @@ a{
     text-decoration: none;
 }
   a:hover {
-    color: rgb(161, 104, 19);
+    color: #ba4f25;
     background-color: transparent;
     text-decoration: underline;
-    font-size: 190%;
+    font-size: 150%;
 }
   a:active {
-    color: white;
     background-color: transparent;
     text-decoration: underline;
- 
 }
 
 .active1{
@@ -100,8 +101,10 @@ a{
     text-decoration: underline;  
     text-shadow: 1px 1px black;
   }
+  
   div{
     padding-right: 50px;
+   
     text-align: right;
     position: sticky;
     top: 0%;
@@ -117,3 +120,24 @@ a{
     font-size: 18px;
 
   }
+
+  
+
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    
+  } 
+  
+  ::-webkit-scrollbar-thumb {
+    background: #ba4f25db; 
+    
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background:  #ba4f25db; 
+  }
+  
